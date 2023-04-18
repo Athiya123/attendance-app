@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-mongoose.connect('mongodb+srv://<username>:<password>@cluster0.ajmcdal.mongodb.net/attendance_app')
+mongoose.connect('mongodb+srv://athiya:athiya12345@cluster0.ejv42eq.mongodb.net/attendance_app')
 .then(() => {
     console.log('Connected to MongoDB');
 }).catch((err) => {
